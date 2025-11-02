@@ -15,7 +15,7 @@
   </head>
   <body class="overflow-x-hidden scroll-smooth">
     <nav
-      class="flex justify-center items-center sticky top-0 z-10 bg-white w-full h-16 shadow-md"
+      class="flex justify-center items-center sticky top-0 z-10 bg-white w-full h-16 shadow-md max-lg:w-full max-lg:h-16"
     >
       <div
         class="flex justify-between items-center gap-5 min-w-[75%] max-lg:w-full max-lg:p-4"
@@ -237,13 +237,19 @@
       </section>
       <!-- Book & Buy on Paytm. -->
       <section
-        class="w-full h-96 bg-[#012870] flex justify-center items-center"
+        class="w-full h-96 bg-[#012870] flex justify-center items-center max-sm:w-full max-sm:h-fit"
       >
         <div
-          class="min-w-[75.5%] h-full flex flex-col justify-center items-start"
+          class="min-w-[75.5%] h-full flex flex-col justify-center items-start max-sm:w-full max-sm:h-fit max-sm:flex max-sm:justify-center"
         >
-          <div class="text-4xl font-bold text-white">Book & Buy on Paytm.</div>
-          <div class="w-full flex mt-10">
+          <div
+            class="text-4xl font-bold text-white max-sm:text-center max-sm:mt-10 max-sm:w-full"
+          >
+            Book & Buy on Paytm.
+          </div>
+          <div
+            class="w-full flex mt-10 max-sm:flex-wrap max-sm:h-fit max-sm:gap-4 max-sm:justify-center max-sm:items-center"
+          >
             <div
               class="hover:bg-blue-900 pl-9 w-40 flex flex-col gap-3 px-4 py-3 rounded-2xl transition-all cursor-pointer"
             >
@@ -607,7 +613,7 @@
     <!-- footer  -->
 
     <footer
-      class="w-full h-[900px] max-lg:h-fit bg-slate-100 mt-10 flex flex-col justify-center items-center"
+      class="w-full h-[900px] max-lg:h-fit bg-slate-100 mt-10 pb-30 flex flex-col justify-center items-center"
     >
       <div
         class="min-w-[75.5%] max-lg:w-full flex flex-col items-center justify-center max-lg:px-7"
@@ -805,7 +811,7 @@
           </div>
         </div>
 
-        <div class="hidden max-lg:block max-lg:mb-16 text-sm">
+        <div class="hidden max-lg:block text-sm">
           Copyright© 2023 Paytm All rights reserved
         </div>
       </div>
@@ -814,7 +820,7 @@
         <section class="w-full bg-[#012870] h-3"></section>
       </div>
       <div
-        class="hidden fixed bottom-0 z-20 w-full bg-[#E8F8FD] h-[70px] max-lg:flex justify-center items-center"
+        class="hidden fixed bottom-0 z-20 max-lg:w-full bg-[#E8F8FD] h-[70px] max-lg:flex justify-center items-center"
       >
         <div class="w-full flex justify-between relative items-center px-4">
           <a href="#main" class="absolute right-0 -top-20 scroll-smooth"
@@ -822,7 +828,7 @@
           /></a>
           <div class="flex gap-2 justify-center items-center">
             <img src="paytmAssets/asset 72.svg" alt="" class="w-11" />
-            <p class="text-sm font-bold text-black">
+            <p class="text-sm font-bold text-black max-sm:w-full">
               Download Paytm App to Pay from anywhere
             </p>
           </div>
